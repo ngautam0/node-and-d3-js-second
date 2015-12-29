@@ -105,7 +105,7 @@ d3.json("./jsonfiles/graphDataHighGdp.json", function (data){
         .call(yAxis)
       .append("text")
         .attr("transform", "rotate(-90)")
-        .attr({"x": -90, "y": -70})
+        .attr({"x": -height/3, "y": -70})
         .attr("dy", ".75em")
         .style("text-anchor", "end")
         .text("GDP Billions (US$)");
