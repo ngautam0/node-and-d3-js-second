@@ -6,7 +6,7 @@ function InitChart() {
 d3.json("./jsonfiles/graphDataContinentPopulation.json", function (data){
   var vis = d3.select('#visualisation1'),
     WIDTH = 1000,
-    HEIGHT = 450,
+    HEIGHT = 550,
     MARGINS = {
       top: 20,
       right: 20,
